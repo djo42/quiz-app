@@ -1,0 +1,26 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "App zum Knobeln",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djo42/quiz-app.git"
+  },
+  "keywords": [
+    "Quiz",
+    "Q&A"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djo42/quiz-app/issues"
+  },
+  "homepage": "https://github.com/djo42/quiz-app#readme",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
