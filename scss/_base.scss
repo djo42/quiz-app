@@ -56,3 +56,16 @@ nav {
     display: flex;
     align-content: space-around;
 }
+
+figure {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+figcaption {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
