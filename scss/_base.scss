@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text|Roboto:400,400i,700,700i');
+
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto';
+    font-size: 20pt;
 }
 
 body {
@@ -18,7 +21,6 @@ h1 {
     width: 100%
 }
 
-
 header {
     position: fixed;
     top: 0;
@@ -34,15 +36,23 @@ header {
 
 main {
     padding: 0 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 footer {
     background-color: hotpink;
     box-shadow: 3px -1px lightgray;
     align-items: center;
+    padding: 5px;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100vw;
     height: 48px;
+}
+
+nav {
+    display: flex;
+    align-content: space-around;
 }
