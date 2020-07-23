@@ -8,6 +8,7 @@
 
 body {
     margin: 0;
+    padding: 0 20px;
 }
 
 h1 {
@@ -18,7 +19,7 @@ h1 {
     margin:0;
     padding:0;
     text-align: center;
-    width: 100%
+    width: 100%;
 }
 
 header {
@@ -67,5 +68,27 @@ figcaption {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+}
+
+form {
+    font-size: 14pt;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+label {
+    font-size: 14pt;
+    width: 100%;
+    height: auto;
+}
+
+input[type="text"] {
+    font-size:14pt;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    word-wrap: break-word;
 }
 

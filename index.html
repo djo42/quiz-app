@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
-    <script src="src/js/index.js"></script>
+    <script src="/src/js/index.js"></script>
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -14,7 +14,7 @@
     </header>
     <main>
     <!-- Home -->
-        <section class="quizcard">
+        <section class="quiz quizcard">
             <h2 class="quizcard__headline">Question 1</h2>
             <p class="quizcard__paragraph">
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, accusantium harum. 
@@ -33,7 +33,7 @@
                  <li>Sinusitis</li>
              </ul>
         </section>
-        <section class="quizcard">
+        <section class="quiz quizcard">
             <h2 class="quizcard__headline">Question 2</h2>
             <p class="quizcard__paragraph">
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, accusantium harum. 
@@ -52,7 +52,7 @@
                  <li>Sinusitis</li>
              </ul>
         </section>
-        <section class="quizcard">
+        <section class="quiz quizcard">
             <h2 class="quizcard__headline">Question 3</h2>
             <p class="quizcard__paragraph">
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, accusantium harum. 
@@ -72,9 +72,27 @@
              </ul>
         </section>
 
+        <!-- Create new question -->
+
+        <section class="create create__card">
+            <form action="" method="POST">
+    
+                <label for="new-question">Add question</label>
+                <input type="text" name="new-question" required>
+    
+                <label for="new-answer">Add answer</label>
+                <input type="text" name="new-answer" required>
+    
+                <label for="new-tags">Add tags</label>
+                <input type="text" name="new-tags">
+            </form>
+            <button class="create__button">Speichern</button>
+        </section>
+
+
         <!-- Profile -->
 
-        <section class="profile-card">
+        <section class="profile profile__card">
             <figure>
                 <img class="pic-profile" src="https://source.unsplash.com/200x200/?man,handsome,face">
                 <figcaption>William Blackwood</figcaption>
@@ -93,10 +111,10 @@
     </main>
     <footer>
         <nav>
-            <a class="nav__link" href="/index.html"><img src="img/home-white.svg" class="img-fluid"></a>
-            <a class="nav__link" href="/bookmark.html"><img src="img/bookmark-white.svg" class="img-fluid"></a>
-            <a class="nav__link" href="/create.html"><img src="img/pen-white.svg" class="img-fluid"></a>
-            <a class="nav__link" href="/profile.html"><img src="img/profile-white.svg" class="img-fluid"></a>
+            <a class="nav__home nav__link"><img src="img/home-white.svg" class="img-fluid"></a>
+            <a class="nav__bookmark nav__link"><img src="img/bookmark-white.svg" class="img-fluid"></a>
+            <a class="nav__create nav__link"><img src="img/pen-white.svg" class="img-fluid"></a>
+            <a class="nav__profile nav__link"><img src="img/profile-white.svg" class="img-fluid"></a>
         </nav>
     </footer>  
 </body>
