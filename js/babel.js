@@ -1,6 +1,6 @@
 "use strict";
 
-var home = document.querySelector(".home");
+var home = document.querySelector(".nav__home");
 var quiz = document.querySelector(".quiz");
 var create = document.querySelector(".create");
 var profile = document.querySelector(".profile");

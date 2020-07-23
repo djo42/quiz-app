@@ -1,4 +1,4 @@
-const home = document.querySelector(".home")
+const home = document.querySelector(".nav__home")
 const quiz = document.querySelector(".quiz")
 const create = document.querySelector(".create")
 const profile = document.querySelector(".profile")

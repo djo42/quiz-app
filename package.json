@@ -4,11 +4,11 @@
   "description": "App zum Knobeln",
   "main": "index.html",
   "scripts": {
-    "start": "npm run sass && npm run babel && npm-run-all --parallel serve sass:watch",
+    "start": "npm run sass && npm run babel && npm-run-all --parallel serve sass:watch babel:watch",
     "serve": "serve .",
     "sass": "node-sass --output-style compressed scss/styles.scss styles.css",
     "sass:watch": "npm run sass -- -w",
-    "babel": "babel src/js/ -d .",
+    "babel": "babel src -d .",
     "babel:watch": "npm run babel src/js/babel.js --watch --src/js/index.js"
 
 
